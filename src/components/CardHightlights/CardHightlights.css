@@ -1,0 +1,80 @@
+.container_clasHeight{
+    border: 1px dotted white;
+    width: 328px;
+    height: 204px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px ;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Raleway', sans-serif;
+    size: 16px;
+    background-color: #1E213A;
+}
+.title_CardHight{
+   /*  border: 1px dotted red; */
+    width: 90px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 18.78px;
+}
+.num_string{
+   /*  border: 1px dotted yellow; */
+    width: 113px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numero{
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 64px;
+    font-weight:700px;
+    line-height: 75.14px;
+}
+.parrafo{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.circle{
+    /* border: 1px dotted purple; */
+    width: 29.49px;
+    height: 29.49px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+    .flecha_img{
+       /*  border: 1px dotted yellow; */
+        width: 17.7px;
+        height: 17.7px;
+        transform:rotate(215deg);
+        
+    }
+.wind_container{
+  /*   border: 1px dotted red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5.71px;
+}
+.wsw{
+    /* border: 1px dotted greenyellow; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
