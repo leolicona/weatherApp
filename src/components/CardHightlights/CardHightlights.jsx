@@ -8,7 +8,7 @@ function CardHightlights() {
         <div className="container_clasHeight"> 
             <span className="title_CardHight">Wind status</span>
             <div className="num_string">
-                <span className="numero"> 7 </span>
+                <span className="numero"> 7° </span>
                 <span className="parrafo"> mph</span>
             </div>
             <div className="wind_container">
@@ -17,8 +17,6 @@ function CardHightlights() {
                 </div>
                 <span className="wsw">WSW</span>
             </div>
-           
-            
         </div>
     )
 }

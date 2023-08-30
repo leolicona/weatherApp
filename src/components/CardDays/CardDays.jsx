@@ -8,7 +8,6 @@ function CardDays ({day, weather, max, min}) {
             <img className='weather_image' src={weather} alt="sol" />
             <span className='temp max'>{max}</span>
             <span className='temp min'>{min}</span>
-
         </section>
     )
 }
