@@ -1,0 +1,25 @@
+.degrees_container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #585676;
+    color: #E7E7EB;
+    border-radius: 50%;
+   
+
+}
+
+.active {
+    background-color: #E7E7EB;
+    color: #110E3C;
+
+}
+
+    .degrees {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+   
+    }
