@@ -1,8 +1,10 @@
-import React from 'react'
+
 import CardDays from './components/CardDays/CardDays'
 import watchImage from './assets/img/shower.png'
 import CardHightlights from './components/CardHightlights/CardHightlights'
+import DegreesCelsius from './components/CardDegreesCelsius/degreesCelsius'
 import './App.css'
+
 
 
 function App() {
@@ -61,9 +63,17 @@ function App() {
 
     {/* lo más destacado de hoy */}
     <CardHightlights
-
     />
 
+    <DegreesCelsius
+    degrees={'C°'} 
+    isActive={true}
+    />
+    
+    <DegreesCelsius
+    degrees={'F°'} 
+    isActive={false}
+    />
     </>
   )
 }
