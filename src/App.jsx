@@ -1,14 +1,16 @@
 
 import CardDays from './components/CardDays/CardDays'
 import watchImage from './assets/img/shower.png'
+import img from './assets/img/outline_my_location_white_36dp.png'
 import CardHightlights from './components/CardHightlights/CardHightlights'
 import DegreesCelsius from './components/CardDegreesCelsius/degreesCelsius'
+import Location from './components/SearchLocation/location'
 import './App.css'
 
 
 
 function App() {
-  console.log('weatherImage', watchImage)
+  
   return (
     <>
      {/* Barra lateral izquierda */}
@@ -69,11 +71,15 @@ function App() {
     degrees={'C°'} 
     isActive={true}
     />
-    
     <DegreesCelsius
     degrees={'F°'} 
     isActive={false}
     />
+
+    <Location
+    img={img}
+    />
+   
     </>
   )
 }
