@@ -12,6 +12,7 @@ import SearchForPlace from './components/SearchPlace/searchPlace'
 import BigDay from './components/BigDay/bigDay'
 import DayOfBigDay from './components/DayOFBigDay/day'
 import BackgroundOfBigDay from './components/BackgroundOfBigDay/background'
+import LayoutBigDay from './components/LayoutBigDay/layout'
 import './App.css'
 
 
@@ -97,6 +98,7 @@ function App() {
     <BackgroundOfBigDay
     background={img_background}
     />
+    <LayoutBigDay/>
     </>
   )
 }
