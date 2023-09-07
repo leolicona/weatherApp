@@ -13,6 +13,7 @@ import BigDay from './components/BigDay/bigDay'
 import DayOfBigDay from './components/DayOFBigDay/day'
 import BackgroundOfBigDay from './components/BackgroundOfBigDay/background'
 import LayoutBigDay from './components/LayoutBigDay/layout'
+import TodayOfBigDay from './components/TodayBigDay/today'
 import './App.css'
 
 
@@ -99,6 +100,8 @@ function App() {
     background={img_background}
     />
     <LayoutBigDay/>
+
+    <TodayOfBigDay/>
     </>
   )
 }
