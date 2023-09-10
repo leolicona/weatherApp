@@ -1,0 +1,37 @@
+.container_bigDay{
+    /* border: 1px dotted green; */
+    position: relative;
+    width:459px ; 
+    height: 100vh;
+    background-color: rgba(30, 33, 58, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.buttons {
+    /* border: 1px dotted white; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-left: 46px;
+    padding-right: 46px;
+    margin-top: 42px;
+}
+
+
+.image-background {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    top: 10%;
+    opacity: 0.2;
+    z-index: 0;
+
+
+}
+

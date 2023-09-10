@@ -2,7 +2,7 @@
 
     position: relative;
 
-    /* border: 1px dotted purple; */
+     border: 1px dotted purple; 
     width: 120px;
     height: 177px;
     display: flex;

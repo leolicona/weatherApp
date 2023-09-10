@@ -1,0 +1,23 @@
+.container_today{
+/* border: 1px dotted white; */
+width: 194px;
+height: 21px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 8px;
+
+}
+
+.today_text{
+  /*   border: 1px dotted blueviolet; */
+   color: rgba(136, 134, 157, 1);
+}
+.punto{
+    border: 1px dotted yellow;
+}
+.fecha_today{
+ /*    border: 1px dotted red; */
+    display: flex;
+    justify-content: center;
+}
